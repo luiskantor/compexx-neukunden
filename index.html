@@ -1152,17 +1152,6 @@
         });
         if (!valid) return;
         var erreichbarkeit = document.getElementById("cf-time").value;
-        fetch("https://api.lead-table.com/api/webhook/generic/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0YWJsZUlEIjoiNjlmZjFiZjA1NDEwMTMzZmRhMmFjYTEwIiwiY3VzdG9tZXJJRCI6IjY5ZmYxYmU2NTQxMDEzM2ZkYTJhYzkzNCIsImFnZW5jeUlEIjoiNjVhNmFkYmIzOGY4ZDlkNTYyZWJkMDhlIiwiaWF0IjoxNzc4MzI2NTEyfQ.52MKEsd05-5TDmIs2RbnJjqF8HaIKW7toy0HPKbYwOs", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            vorname: name,
-            telefon: phone,
-            beruf: beruf,
-            erreichbarkeit: erreichbarkeit,
-            quelle: "Finanzgeselle Landingpage"
-          })
-        }).catch(function(){});
         fetch("https://api.hsforms.com/submissions/v3/integration/submit/49384673/3fac1ee5-544b-4f22-80d0-64cffa6bcea4", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
