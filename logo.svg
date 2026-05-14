@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 90" fill="none">
+  <!-- Screw head (orange) -->
+  <path d="M14 6 L44 6 L40 22 L18 22 Z" fill="#E47B34"/>
+  <!-- Screw shaft (dark brown) -->
+  <rect x="22" y="22" width="14" height="52" rx="1" fill="#534643"/>
+  <!-- Thread diagonal lines -->
+  <line x1="18" y1="30" x2="40" y2="30" stroke="white" stroke-width="2"/>
+  <line x1="18" y1="38" x2="40" y2="38" stroke="white" stroke-width="2"/>
+  <line x1="18" y1="46" x2="40" y2="46" stroke="white" stroke-width="2"/>
+  <line x1="18" y1="54" x2="40" y2="54" stroke="white" stroke-width="2"/>
+  <line x1="18" y1="62" x2="40" y2="62" stroke="white" stroke-width="2"/>
+  <!-- Screw tip -->
+  <polygon points="22,74 36,74 29,86" fill="#534643"/>
+  <!-- FINANZ -->
+  <text x="58" y="44" font-family="'Arial Black','Arial',sans-serif" font-weight="900" font-size="34" fill="#534643" letter-spacing="0.5">FINANZ</text>
+  <!-- GESELLE -->
+  <text x="58" y="82" font-family="'Arial Black','Arial',sans-serif" font-weight="900" font-size="34" fill="#534643" letter-spacing="0.5">GESELLE</text>
+</svg>
